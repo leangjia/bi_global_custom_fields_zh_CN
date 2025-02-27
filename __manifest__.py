@@ -3,9 +3,9 @@
 
 {
     "name": "All in one add custom fields -Global Custom Fields",
-    "version": "16.0.0.1",
-    "category": "Extra Tools",
-    'summary': "Add custom fields global custom field add dynamic fields custom dynamic fields all in one add new fields all in one custom add fields update view update custom fields update fields assign custom fields update global custom fields easy to add custom field",
+    "version": "17.0.0.0",
+    "category": "Extra Tool",
+    'summary': "Addd custom fields global custom field add dynamic fields custom dynamic fields all in one add new fields all in one custom add fields update view update custom fields update fields assign custom fields update global custom fields easy to add custom field",
     "description": """
 	
 				add custom fields,
@@ -14,8 +14,8 @@
 				gubal custome fields and tabs,
 	
 	""",
-    "author": "BrowseInfo",
-    "website": "https://www.browseinfo.in",
+    "author": "Sherif Arnaout",
+    "website": "https://www.browseinfo.com",
     "price": 89,
     'license': 'OPL-1',
     "currency": 'EUR',

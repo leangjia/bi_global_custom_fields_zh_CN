@@ -20,17 +20,17 @@
                             <group>
                                 <field name="ttype"/>
                                 <field name="relation"
-                                       attrs="{'required': [('ttype','in',['many2one','one2many','many2many'])],
-										'readonly': [('ttype','not in',['many2one','one2many','many2many'])],
-										'invisible': [('ttype','not in',['many2one','one2many','many2many'])]}"/>
+                                    required = "ttype in ('many2one','one2many','many2many')"
+                                    readonly = "ttype not in ('many2one','one2many','many2many')"
+                                    invisible =  "ttype not in ('many2one','one2many','many2many')"/>
                                 <field name="relation_field"
-                                        attrs="{'required': [('ttype','in',['one2many'])],
-                                        'readonly': [('ttype','not in',['one2many'])],
-                                        'invisible': [('ttype','not in',['one2many'])]}"/>
+                                    required = "ttype in 'one2many'"
+                                    readonly = "ttype not in 'one2many'"
+                                    invisible = "ttype not in 'one2many'"/>
 
                                 <field name="on_delete" groups="base.group_no_one"
-                                       attrs="{'readonly': [('ttype','!=','many2one')],
-                                                    'invisible': [('ttype','!=','many2one')]}"/>
+                                    readonly = "ttype != 'many2one'"
+                                    invisible = "ttype != 'many2one'"/>
                                 <field name="where_to_add"/>
                                 <field name="after_which_field" widget="selection"/>
                                 <field name="help"/>
@@ -46,9 +46,10 @@
                                         <field name="model_field" invisible='1'/>
                                     </group>
                                     <group>
-                                        <field name="selection_ids" attrs="{'required': [('ttype','in',['selection','reference'])],
-                                        'readonly': [('ttype','not in',['selection','reference'])],
-                                        'invisible': [('ttype','not in',['selection','reference'])]}">
+                                        <field name="selection_ids" 
+                                            required = "ttype in ('selection','reference')"
+                                            readonly = "ttype not in ('selection','reference')"
+                                            invisible = "ttype not in ('selection','reference')">
                                             <tree editable="bottom">
                                                 <field name="value"/>
                                                 <field name="name"/>
@@ -63,7 +64,7 @@
                             </page>
                             <page name="misc" string="Domains">
                                 <field name="domain_list" widget="domain"
-                                       attrs="{'invisible': [('ttype','!=','many2one')]}"
+                                    invisible = "ttype != 'many2one'"
                                        options="{'model': 'model_field', 'in_dialog': false}"/>
                             </page>
                         </notebook>
