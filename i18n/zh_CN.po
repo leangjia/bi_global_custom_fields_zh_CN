@@ -1,0 +1,615 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* bi_global_custom_fields
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0-20231113\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-05 01:13+0000\n"
+"PO-Revision-Date: 2025-02-26 17:45+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.5\n"
+
+#. module: bi_global_custom_fields
+#: model:res.groups,name:bi_global_custom_fields.global_custom_fields_group
+msgid " Allow Global Custom Fields and Tabs "
+msgstr "允许全局自定义字段和选项卡"
+
+#. module: bi_global_custom_fields
+#. odoo-javascript
+#: code:addons/bi_global_custom_fields/static/src/xml/qweb.xml:0
+#, python-format
+msgid ">Create"
+msgstr ">创建"
+
+#. module: bi_global_custom_fields
+#. odoo-javascript
+#: code:addons/bi_global_custom_fields/static/src/xml/qweb.xml:0
+#, python-format
+msgid ">Create Tender"
+msgstr ">创建 Tender"
+
+#. module: bi_global_custom_fields
+#: model_terms:ir.ui.view,arch_db:bi_global_custom_fields.global_custom_fields_update_view
+#: model_terms:ir.ui.view,arch_db:bi_global_custom_fields.global_custom_fields_wizard_view
+msgid "Access Rights"
+msgstr "权限"
+
+#. module: bi_global_custom_fields
+#: model:ir.actions.act_window,name:bi_global_custom_fields.global_custom_fields_wizard_action
+msgid "Add Custom Global Fields"
+msgstr "添加自定义全局字段"
+
+#. module: bi_global_custom_fields
+#: model_terms:ir.ui.view,arch_db:bi_global_custom_fields.global_custom_fields_wizard_view
+msgid "Add Field"
+msgstr "添加字段"
+
+#. module: bi_global_custom_fields
+#: model:ir.actions.act_window,name:bi_global_custom_fields.global_custom_fields_invoice_menu
+#: model:ir.actions.act_window,name:bi_global_custom_fields.global_custom_fields_lead_menu
+#: model:ir.actions.act_window,name:bi_global_custom_fields.global_custom_fields_partner_menu
+#: model:ir.actions.act_window,name:bi_global_custom_fields.global_custom_fields_picking_menu
+#: model:ir.actions.act_window,name:bi_global_custom_fields.global_custom_fields_pipeline_menu
+#: model:ir.actions.act_window,name:bi_global_custom_fields.global_custom_fields_product_menu
+#: model:ir.actions.act_window,name:bi_global_custom_fields.global_custom_fields_project_menu
+#: model:ir.actions.act_window,name:bi_global_custom_fields.global_custom_fields_purchase_menu
+#: model:ir.actions.act_window,name:bi_global_custom_fields.global_custom_fields_sale_menu
+#: model:ir.actions.act_window,name:bi_global_custom_fields.global_custom_fields_task_menu
+#: model:ir.actions.act_window,name:bi_global_custom_fields.global_custom_fields_user_menu
+#: model:ir.actions.act_window,name:bi_global_custom_fields.global_custom_fields_variant_menu
+msgid "Add Global Custom Fields"
+msgstr "添加全局自定义字段"
+
+#. module: bi_global_custom_fields
+#: model:ir.actions.act_window,name:bi_global_custom_fields.global_custom_fields_invoice_tab_menu
+#: model:ir.actions.act_window,name:bi_global_custom_fields.global_custom_fields_picking_tab_menu
+#: model:ir.actions.act_window,name:bi_global_custom_fields.global_custom_fields_product_tab_menu
+#: model:ir.actions.act_window,name:bi_global_custom_fields.global_custom_fields_project_tab_menu
+#: model:ir.actions.act_window,name:bi_global_custom_fields.global_custom_fields_purchase_tab_menu
+#: model:ir.actions.act_window,name:bi_global_custom_fields.global_custom_fields_sale_tab_menu
+#: model:ir.actions.act_window,name:bi_global_custom_fields.global_custom_fields_user_tab_menu
+#: model:ir.actions.act_window,name:bi_global_custom_fields.global_custom_fields_variant_tab_menu
+#: model:ir.actions.act_window,name:bi_global_custom_fields.global_custom_tab_contact_menu
+#: model:ir.actions.act_window,name:bi_global_custom_fields.global_custom_tabs_lead_menu
+#: model:ir.actions.act_window,name:bi_global_custom_fields.global_custom_tabs_pipeline_menu
+#: model:ir.actions.act_window,name:bi_global_custom_fields.global_custom_tabs_task_menu
+msgid "Add Global Custom Tab"
+msgstr "添加全局自定义选项卡"
+
+#. module: bi_global_custom_fields
+#: model_terms:ir.ui.view,arch_db:bi_global_custom_fields.global_custom_tabs_wizard_view
+msgid "Add Tab"
+msgstr "添加Tab页签"
+
+#. module: bi_global_custom_fields
+#: model:ir.model.fields.selection,name:bi_global_custom_fields.selection__custom_fields__where_to_add__after
+#: model:ir.model.fields.selection,name:bi_global_custom_fields.selection__ir_global_tabs__where_to_add__after
+#: model:ir.model.fields.selection,name:bi_global_custom_fields.selection__ir_models_fields_custom__where_to_add__after
+msgid "After"
+msgstr "之后"
+
+#. module: bi_global_custom_fields
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_models_fields_custom__after_which_field
+msgid "After Which Field"
+msgstr "在哪个字段之后"
+
+#. module: bi_global_custom_fields
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_custom_fields__after_which_field
+msgid "After which Field"
+msgstr "在哪个字段之后"
+
+#. module: bi_global_custom_fields
+#: model:ir.actions.act_window,name:bi_global_custom_fields.all_tabs_action
+msgid "All TABS"
+msgstr "所有页签"
+
+#. module: bi_global_custom_fields
+#: model_terms:ir.ui.view,arch_db:bi_global_custom_fields.all_model_tabs_tree_view
+msgid "All model Tabs"
+msgstr "所有模型页签"
+
+#. module: bi_global_custom_fields
+#: model_terms:ir.ui.view,arch_db:bi_global_custom_fields.global_custom_fields_wizard_view
+msgid "Base Properties"
+msgstr ""
+"基础属性（Binary: 用于存储二进制数据，比如文件、图片等。\n"
+"Boolean: 存储真/假值或开启/关闭状态。\n"
+"Char: 用于存储字符串数据，通常适用于较短的文本。\n"
+"Date: 专门用来存储日期信息。\n"
+"Datetime: 与Date类似，但是它还包含时间部分。\n"
+"Float: 用于存储浮点数，适合需要小数点精度的数值。\n"
+"HTML: 用于存储HTML内容，适用于富文本字段。\n"
+"Integer: 存储整数数值。\n"
+"Many2one: 建立一个到另一个模型的多对一关系，表示当前记录与另一个模型中的单个"
+"记录相关联。\n"
+"Selection: 提供一组固定的选项供用户选择，类似于下拉菜单。\n"
+"Text: 类似于Char，但更适合长文本内容。\n"
+"Monetary: 专门用于货币值，支持多币种处理。\n"
+"Many2one_reference 和 Reference: 这两个类型允许更灵活的关系定义，其中"
+"Reference可以指向任何模型，而Many2one_reference通常与特定模型关联。"
+
+#. module: bi_global_custom_fields
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_custom_fields__domain_list
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_models_fields_custom__domain_list
+msgid "Based on Field"
+msgstr "基于字段"
+
+#. module: bi_global_custom_fields
+#: model:ir.model.fields.selection,name:bi_global_custom_fields.selection__custom_fields__where_to_add__before
+#: model:ir.model.fields.selection,name:bi_global_custom_fields.selection__ir_global_tabs__where_to_add__before
+#: model:ir.model.fields.selection,name:bi_global_custom_fields.selection__ir_models_fields_custom__where_to_add__before
+msgid "Before"
+msgstr "之前"
+
+#. module: bi_global_custom_fields
+#: model_terms:ir.ui.view,arch_db:bi_global_custom_fields.global_custom_field_search_view
+msgid "Binary"
+msgstr "Binary"
+
+#. module: bi_global_custom_fields
+#: model_terms:ir.ui.view,arch_db:bi_global_custom_fields.global_custom_field_search_view
+msgid "Boolean"
+msgstr "Boolean"
+
+#. module: bi_global_custom_fields
+#: model_terms:ir.ui.view,arch_db:bi_global_custom_fields.global_custom_fields_update_view
+#: model_terms:ir.ui.view,arch_db:bi_global_custom_fields.global_custom_fields_wizard_view
+#: model_terms:ir.ui.view,arch_db:bi_global_custom_fields.global_custom_tabs_update_view
+#: model_terms:ir.ui.view,arch_db:bi_global_custom_fields.global_custom_tabs_wizard_view
+msgid "Cancel"
+msgstr "取消"
+
+#. module: bi_global_custom_fields
+#: model:ir.model.fields.selection,name:bi_global_custom_fields.selection__custom_fields__on_delete__cascade
+#: model:ir.model.fields.selection,name:bi_global_custom_fields.selection__ir_models_fields_custom__on_delete__cascade
+msgid "Cascade"
+msgstr "级联"
+
+#. module: bi_global_custom_fields
+#: model_terms:ir.ui.view,arch_db:bi_global_custom_fields.global_custom_field_search_view
+msgid "Char"
+msgstr "Char"
+
+#. module: bi_global_custom_fields
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_custom_fields__copied
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_models_fields_custom__copied
+#: model_terms:ir.ui.view,arch_db:bi_global_custom_fields.global_custom_field_search_view
+msgid "Copied"
+msgstr "复制"
+
+#. module: bi_global_custom_fields
+#: model:ir.model.fields,help:bi_global_custom_fields.field_custom_fields__domain_list
+#: model:ir.model.fields,help:bi_global_custom_fields.field_ir_models_fields_custom__domain_list
+msgid "Coupon program will work for selected customers only"
+msgstr "优惠券计划仅适用于部分客户"
+
+#. module: bi_global_custom_fields
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_custom_fields__create_uid
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_global_tabs__create_uid
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_model_fields_selection_custom__create_uid
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_model_tabs__create_uid
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_models_fields_custom__create_uid
+msgid "Created by"
+msgstr "创建者"
+
+#. module: bi_global_custom_fields
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_custom_fields__create_date
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_global_tabs__create_date
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_model_fields_selection_custom__create_date
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_model_tabs__create_date
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_models_fields_custom__create_date
+msgid "Created on"
+msgstr "创建于"
+
+#. module: bi_global_custom_fields
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_model_tabs__view_id
+msgid "Created view"
+msgstr "创建视图"
+
+#. module: bi_global_custom_fields
+#: model:ir.model,name:bi_global_custom_fields.model_custom_fields
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_model_fields_selection_custom__custom_fields_id
+#: model:ir.ui.menu,name:bi_global_custom_fields.custom_global_fields_root
+msgid "Custom Fields"
+msgstr "自定义字段"
+
+#. module: bi_global_custom_fields
+#: model:ir.actions.act_window,name:bi_global_custom_fields.global_custom_fields_action
+#: model:ir.model,name:bi_global_custom_fields.model_ir_models_fields_custom
+#: model:ir.ui.menu,name:bi_global_custom_fields.custom_global_fields
+#: model_terms:ir.ui.view,arch_db:bi_global_custom_fields.global_custom_field_tree_view
+#: model_terms:ir.ui.view,arch_db:bi_global_custom_fields.global_custom_fields_wizard_view
+msgid "Custom Global Fields"
+msgstr "自定义全局字段"
+
+#. module: bi_global_custom_fields
+#: model:ir.actions.act_window,name:bi_global_custom_fields.global_custom_tabs_action
+#: model:ir.actions.act_window,name:bi_global_custom_fields.global_custom_tabs_wizard_action
+#: model:ir.model,name:bi_global_custom_fields.model_ir_global_tabs
+#: model:ir.ui.menu,name:bi_global_custom_fields.custom_global_tabs
+#: model_terms:ir.ui.view,arch_db:bi_global_custom_fields.global_custom_tabs_tree_view
+#: model_terms:ir.ui.view,arch_db:bi_global_custom_fields.global_custom_tabs_update_view
+#: model_terms:ir.ui.view,arch_db:bi_global_custom_fields.global_custom_tabs_wizard_view
+msgid "Custom Global Tabs"
+msgstr "自定义全局页签"
+
+#. module: bi_global_custom_fields
+#: model_terms:ir.ui.view,arch_db:bi_global_custom_fields.global_custom_field_search_view
+msgid "Date"
+msgstr "日期"
+
+#. module: bi_global_custom_fields
+#: model_terms:ir.ui.view,arch_db:bi_global_custom_fields.global_custom_field_search_view
+msgid "Datetime"
+msgstr "日期"
+
+#. module: bi_global_custom_fields
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_custom_fields__display_name
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_global_tabs__display_name
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_model_fields_selection_custom__display_name
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_model_tabs__display_name
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_models_fields_custom__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: bi_global_custom_fields
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_custom_fields__domain
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_models_fields_custom__domain
+msgid "Domain"
+msgstr "域"
+
+#. module: bi_global_custom_fields
+#: model_terms:ir.ui.view,arch_db:bi_global_custom_fields.global_custom_fields_update_view
+#: model_terms:ir.ui.view,arch_db:bi_global_custom_fields.global_custom_fields_wizard_view
+msgid "Domains"
+msgstr "域"
+
+#. module: bi_global_custom_fields
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_model_fields_selection_custom__field
+msgid "Field"
+msgstr "字段"
+
+#. module: bi_global_custom_fields
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_custom_fields__help
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_models_fields_custom__help
+msgid "Field Help"
+msgstr "字段帮助信息"
+
+#. module: bi_global_custom_fields
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_custom_fields__field_description
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_models_fields_custom__field_description
+msgid "Field Label"
+msgstr "字段标签"
+
+#. module: bi_global_custom_fields
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_custom_fields__name
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_models_fields_custom__name
+msgid "Field Name"
+msgstr "字段名称"
+
+#. module: bi_global_custom_fields
+#: model_terms:ir.ui.view,arch_db:bi_global_custom_fields.global_custom_fields_update_view
+msgid "Field Properties"
+msgstr ""
+"字段属性（Binary: 用于存储二进制数据，比如文件、图片等。\n"
+"Boolean: 存储真/假值或开启/关闭状态。\n"
+"Char: 用于存储字符串数据，通常适用于较短的文本。\n"
+"Date: 专门用来存储日期信息。\n"
+"Datetime: 与Date类似，但是它还包含时间部分。\n"
+"Float: 用于存储浮点数，适合需要小数点精度的数值。\n"
+"HTML: 用于存储HTML内容，适用于富文本字段。\n"
+"Integer: 存储整数数值。\n"
+"Many2one: 建立一个到另一个模型的多对一关系，表示当前记录与另一个模型中的单个"
+"记录相关联。\n"
+"Selection: 提供一组固定的选项供用户选择，类似于下拉菜单。\n"
+"Text: 类似于Char，但更适合长文本内容。\n"
+"Monetary: 专门用于货币值，支持多币种处理。\n"
+"Many2one_reference 和 Reference: 这两个类型允许更灵活的关系定义，其中"
+"Reference可以指向任何模型，而Many2one_reference通常与特定模型关联。）"
+
+#. module: bi_global_custom_fields
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_custom_fields__ttype
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_models_fields_custom__ttype
+#: model_terms:ir.ui.view,arch_db:bi_global_custom_fields.global_custom_field_search_view
+msgid "Field Type"
+msgstr "字段类别"
+
+#. module: bi_global_custom_fields
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_model_fields_selection_custom__fields_id
+msgid "Fields"
+msgstr "字段"
+
+#. module: bi_global_custom_fields
+#: model_terms:ir.ui.view,arch_db:bi_global_custom_fields.global_custom_field_search_view
+msgid "Float"
+msgstr "浮点型"
+
+#. module: bi_global_custom_fields
+#: model_terms:ir.ui.view,arch_db:bi_global_custom_fields.all_tabs_search_view
+#: model_terms:ir.ui.view,arch_db:bi_global_custom_fields.global_custom_field_search_view
+msgid "Group by"
+msgstr "分组"
+
+#. module: bi_global_custom_fields
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_custom_fields__groups
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_global_tabs__groups
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_models_fields_custom__groups
+msgid "Groups"
+msgstr "群组"
+
+#. module: bi_global_custom_fields
+#: model_terms:ir.ui.view,arch_db:bi_global_custom_fields.global_custom_field_search_view
+msgid "HTML"
+msgstr "HTML"
+
+#. module: bi_global_custom_fields
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_custom_fields__id
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_global_tabs__id
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_model_fields_selection_custom__id
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_model_tabs__id
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_models_fields_custom__id
+msgid "ID"
+msgstr "ID"
+
+#. module: bi_global_custom_fields
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_models_fields_custom__index
+msgid "Indexed"
+msgstr "索引"
+
+#. module: bi_global_custom_fields
+#: model_terms:ir.ui.view,arch_db:bi_global_custom_fields.global_custom_field_search_view
+msgid "Integer"
+msgstr "整数"
+
+#. module: bi_global_custom_fields
+#: model:ir.model,name:bi_global_custom_fields.model_ir_model_fields
+msgid "Ir Model Field Inherit"
+msgstr "Ir 模型字段继承"
+
+#. module: bi_global_custom_fields
+#: model:ir.model,name:bi_global_custom_fields.model_ir_model_fields_selection_custom
+msgid "Ir Model Selection Field Inherit"
+msgstr "Ir 模型选择字段继承"
+
+#. module: bi_global_custom_fields
+#: model:ir.model,name:bi_global_custom_fields.model_ir_model_tabs
+msgid "Ir Model Tabs"
+msgstr "Ir 模型页签"
+
+#. module: bi_global_custom_fields
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_custom_fields__write_uid
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_global_tabs__write_uid
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_model_fields_selection_custom__write_uid
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_model_tabs__write_uid
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_models_fields_custom__write_uid
+msgid "Last Updated by"
+msgstr "最后更新人"
+
+#. module: bi_global_custom_fields
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_custom_fields__write_date
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_global_tabs__write_date
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_model_fields_selection_custom__write_date
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_model_tabs__write_date
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_models_fields_custom__write_date
+msgid "Last Updated on"
+msgstr "最后更新于"
+
+#. module: bi_global_custom_fields
+#: model_terms:ir.ui.view,arch_db:bi_global_custom_fields.global_custom_field_search_view
+msgid "Many2one"
+msgstr "多对一"
+
+#. module: bi_global_custom_fields
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_custom_fields__model_id
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_global_tabs__model_id
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_model_tabs__model_id
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_models_fields_custom__model_id
+#: model_terms:ir.ui.view,arch_db:bi_global_custom_fields.all_tabs_search_view
+#: model_terms:ir.ui.view,arch_db:bi_global_custom_fields.custom_tab_search_view
+#: model_terms:ir.ui.view,arch_db:bi_global_custom_fields.global_custom_field_search_view
+msgid "Model"
+msgstr "模型"
+
+#. module: bi_global_custom_fields
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_models_fields_custom__model_field
+msgid "Model Field"
+msgstr "模型字段"
+
+#. module: bi_global_custom_fields
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_global_tabs__name
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_model_tabs__tab_name
+msgid "Name"
+msgstr "名称"
+
+#. module: bi_global_custom_fields
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_custom_fields__on_delete
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_models_fields_custom__on_delete
+msgid "On Delete"
+msgstr "删除"
+
+#. module: bi_global_custom_fields
+#: model:ir.model.fields,help:bi_global_custom_fields.field_custom_fields__on_delete
+#: model:ir.model.fields,help:bi_global_custom_fields.field_ir_models_fields_custom__on_delete
+msgid "On delete property for many2one fields"
+msgstr "Many2one字段的 “on delete” 属性"
+
+#. module: bi_global_custom_fields
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_model_tabs__position
+msgid "Position"
+msgstr "位置"
+
+#. module: bi_global_custom_fields
+#: model_terms:ir.ui.view,arch_db:bi_global_custom_fields.global_custom_fields_update_view
+#: model_terms:ir.ui.view,arch_db:bi_global_custom_fields.global_custom_fields_wizard_view
+msgid "Properties"
+msgstr "属性"
+
+#. module: bi_global_custom_fields
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_custom_fields__readonly
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_models_fields_custom__readonly
+#: model_terms:ir.ui.view,arch_db:bi_global_custom_fields.global_custom_field_search_view
+msgid "Readonly"
+msgstr "只读"
+
+#. module: bi_global_custom_fields
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_custom_fields__relation
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_models_fields_custom__relation
+msgid "Relation"
+msgstr "关系"
+
+#. module: bi_global_custom_fields
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_custom_fields__relation_field
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_models_fields_custom__relation_field
+msgid "Relation Field"
+msgstr "关联字段"
+
+#. module: bi_global_custom_fields
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_custom_fields__required
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_models_fields_custom__required
+#: model_terms:ir.ui.view,arch_db:bi_global_custom_fields.global_custom_field_search_view
+msgid "Required"
+msgstr "必填"
+
+#. module: bi_global_custom_fields
+#: model:ir.model.fields.selection,name:bi_global_custom_fields.selection__custom_fields__on_delete__restrict
+#: model:ir.model.fields.selection,name:bi_global_custom_fields.selection__ir_models_fields_custom__on_delete__restrict
+msgid "Restrict"
+msgstr "限制"
+
+#. module: bi_global_custom_fields
+#: model_terms:ir.ui.view,arch_db:bi_global_custom_fields.global_custom_field_search_view
+msgid "Selection"
+msgstr "选择"
+
+#. module: bi_global_custom_fields
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_custom_fields__selection_ids
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_models_fields_custom__selection_ids
+msgid "Selection Options"
+msgstr "下拉选项"
+
+#. module: bi_global_custom_fields
+#: model:ir.model.fields.selection,name:bi_global_custom_fields.selection__custom_fields__on_delete__set_null
+#: model:ir.model.fields.selection,name:bi_global_custom_fields.selection__ir_models_fields_custom__on_delete__set_null
+msgid "Set NULL"
+msgstr "设为 NULL"
+
+#. module: bi_global_custom_fields
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_custom_fields__state
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_models_fields_custom__state
+msgid "State"
+msgstr "状态"
+
+#. module: bi_global_custom_fields
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_models_fields_custom__store
+msgid "Stored"
+msgstr "保存"
+
+#. module: bi_global_custom_fields
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_model_tabs__tab_string
+msgid "String"
+msgstr "字符"
+
+#. module: bi_global_custom_fields
+#: model_terms:ir.ui.view,arch_db:bi_global_custom_fields.global_custom_field_search_view
+msgid "Student Information"
+msgstr "学生信息"
+
+#. module: bi_global_custom_fields
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_custom_fields__tab_list
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_global_tabs__tab_list
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_models_fields_custom__tab_list
+msgid "Tab List"
+msgstr "页签列表"
+
+#. module: bi_global_custom_fields
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_global_tabs__field_description
+msgid "Tabs Label"
+msgstr "页签标签"
+
+#. module: bi_global_custom_fields
+#: model_terms:ir.ui.view,arch_db:bi_global_custom_fields.global_custom_field_search_view
+msgid "Text"
+msgstr "文本"
+
+#. module: bi_global_custom_fields
+#. odoo-python
+#: code:addons/bi_global_custom_fields/models/global_custom_fields.py:0
+#, python-format
+msgid ""
+"The m2o field %s is required but declares its ondelete policy as being 'set "
+"null'. Only 'restrict' and 'cascade' make sense."
+msgstr ""
+"m2o 字段 %s 是必填字段，但声明其删除策略为 \"设置为空\"。只有 \"限制 \"和 "
+"\"级联 \"才有意义。"
+
+#. module: bi_global_custom_fields
+#: model_terms:ir.ui.view,arch_db:bi_global_custom_fields.global_custom_fields_update_view
+msgid "Update CUSTOM"
+msgstr "更新自定义"
+
+#. module: bi_global_custom_fields
+#: model_terms:ir.ui.view,arch_db:bi_global_custom_fields.global_custom_fields_update_view
+msgid "Update Custom Global Fields"
+msgstr "更新自定义全局字段"
+
+#. module: bi_global_custom_fields
+#: model_terms:ir.ui.view,arch_db:bi_global_custom_fields.global_custom_field_tree_view
+msgid "Update Field"
+msgstr "更新字段"
+
+#. module: bi_global_custom_fields
+#: model_terms:ir.ui.view,arch_db:bi_global_custom_fields.global_custom_tabs_tree_view
+#: model_terms:ir.ui.view,arch_db:bi_global_custom_fields.global_custom_tabs_update_view
+msgid "Update Tab"
+msgstr "更新页签"
+
+#. module: bi_global_custom_fields
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_model_fields_selection_custom__value
+msgid "Value"
+msgstr "值"
+
+#. module: bi_global_custom_fields
+#: model:ir.model,name:bi_global_custom_fields.model_ir_ui_view
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_custom_fields__view_id
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_global_tabs__view_id
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_model_fields__view_id
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_models_fields_custom__view_id
+msgid "View"
+msgstr "查看"
+
+#. module: bi_global_custom_fields
+#. odoo-python
+#: code:addons/bi_global_custom_fields/models/global_custom_fields.py:0
+#, python-format
+msgid "Warning"
+msgstr "警告"
+
+#. module: bi_global_custom_fields
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_custom_fields__where_to_add
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_global_tabs__where_to_add
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_models_fields_custom__where_to_add
+msgid "Where to Add"
+msgstr "在哪添加"
+
+#. module: bi_global_custom_fields
+#: model:ir.model.fields,help:bi_global_custom_fields.field_ir_models_fields_custom__store
+msgid "Whether the value is stored in the database."
+msgstr "该值是否存储在数据库中。"
+
+#. module: bi_global_custom_fields
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_custom_fields__model_field
+msgid "model Field"
+msgstr "模型字段"
+
+#. module: bi_global_custom_fields
+#: model:ir.model.fields,field_description:bi_global_custom_fields.field_ir_model_fields_selection_custom__name
+msgid "name"
+msgstr "名称"
